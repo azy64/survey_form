@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-   <div id="main">
-      <h1 id="title">Survey Form </h1>
-      <p id="description">
-          SHORT EXPLANATION
-      </p>
-      <form id="survey-form" action="">
-        <div class="input-container">
-          <label id="name-label" for="name">Name</label>
-          <input required type="text" id="name" name="name" placeholder="name"/>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <div id="main">
+    <h1 id="title">Survey Form </h1>
+    <p id="description">
+      SHORT EXPLANATION
+    </p>
+    <form id="survey-form" action="">
+      <div class="input-container">
+        <label id="name-label" for="name">Name</label>
+        <input required type="text" id="name" name="name" placeholder="name" />
         <span class="validity"></span>
-        </div>
-        <div class="input-container">
-          <label id="email-label"for="email">Email</label>
-          <input required type="email" id="email" name="email" placeholder="email"/>
-          <span class="validity"></span>
-        </div>
-        <div class="input-container">
-          <label id="number-label" for="number">Number</label>
-          <input required type="number" id="number" name="number" min="0" max="100" placeholder="number"/>
-          <span class="validity"></span>
-        </div>
-        <select id="dropdown">
-          <option value="1">something</option>
-          <option value="2">something</option>
-          <option value="3">something</option>
-        </select>
-        <div class="group-radio">
-          <label>WINDOWS
-            <input type="radio" name="choice" value="windows"/>
-          </label>
-          <label>LINUX
-          <input type="radio" name="choice" value="LINUX"/>
-          </label>
-          <label>MAC
-          <input type="radio" name="choice" value="MAC"/>
-          </label>
-        </div>
-        <div class="group-checkbox">
-            <input type="checkbox" value="GIFT"/>
-            <input type="checkbox" value="TAG"/>
+      </div>
+      <div class="input-container">
+        <label id="email-label" for="email">Email</label>
+        <input required type="email" id="email" name="email" placeholder="email" />
+        <span class="validity"></span>
+      </div>
+      <div class="input-container">
+        <label id="number-label" for="number">Number</label>
+        <input required type="number" id="number" name="number" min="0" max="100" placeholder="number" />
+        <span class="validity"></span>
+      </div>
+      <select id="dropdown">
+        <option value="1">something</option>
+        <option value="2">something</option>
+        <option value="3">something</option>
+      </select>
+      <div class="group-radio">
+        <label>WINDOWS
+          <input type="radio" name="choice" value="windows" />
+        </label>
+        <label>LINUX
+          <input type="radio" name="choice" value="LINUX" />
+        </label>
+        <label>MAC
+          <input type="radio" name="choice" value="MAC" />
+        </label>
+      </div>
+      <div class="group-checkbox">
+        <input type="checkbox" value="GIFT" />
+        <input type="checkbox" value="TAG" />
+      </div>
+      <div>
+        <input type="submit" value="save" id="submit">
+      </div>
+      <div>
+        <textarea name="sub" id="text" cols="30" rows="30"
+          placeholder="Write Here Why You Want To Learn Programming"></textarea>
+      </div>
 
-        </div>
-        
 
-      </form>
-   </div>
-    <script  src="js/index.js"></script>
-  </body>
+
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
